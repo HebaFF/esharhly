@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>أنهي صوت مصري؟ · اشرحلي</title>
+<meta name="robots" content="noindex">
+<style>
+  @font-face{font-family:Lalezar;src:url(Lalezar-Regular.ttf) format('truetype');font-display:swap}
+  @font-face{font-family:Naskh;src:url(NotoNaskhArabic.ttf) format('truetype');font-display:swap}
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{font-family:Naskh,serif;color:#eaf4fb;min-height:100svh;background:#0d2740;
+       background-image:radial-gradient(circle at 50% -15%,#1d5580 0%,#0d2740 55%)}
+  header{text-align:center;padding:34px 16px 6px}
+  h1{font-family:Lalezar,cursive;font-weight:400;font-size:clamp(26px,7vw,40px);color:#ffd977;margin:0}
+  .tag{margin:14px auto 0;max-width:560px;font-size:clamp(15px,4vw,17px);line-height:1.95;color:#bcd8ec}
+  main{max-width:720px;margin:0 auto;padding:22px 14px 60px;display:grid;gap:16px}
+  .card{background:#15385480;border:3px solid #1d5580;border-radius:20px;padding:18px 18px 20px}
+  .card.now{border-style:dashed;border-color:#7a4a4a;background:#3a1f1f55}
+  .top{display:flex;align-items:center;gap:12px;margin-bottom:6px;flex-wrap:wrap}
+  .letter{font-family:Lalezar,cursive;font-size:20px;width:40px;height:40px;line-height:40px;
+          text-align:center;border-radius:999px;background:#ffd977;color:#0d2740;flex:0 0 40px}
+  .card.now .letter{background:#c98a8a}
+  h2{font-family:Lalezar,cursive;font-weight:400;margin:0;font-size:21px;color:#fff}
+  .how{margin:0 0 12px;font-size:14px;line-height:1.85;color:#8fb6d4}
+  audio{width:100%;margin-top:4px}
+  .note{background:#15385480;border:3px solid #1d5580;border-radius:18px;padding:18px;
+        font-size:15px;line-height:2;color:#c6dcec}
+  .note b{color:#ffd977}
+  .txt{background:#0b2034;border-radius:14px;padding:12px 14px;margin:0 0 12px;
+       font-size:15px;line-height:2;color:#9fc4e0}
+  .back{display:inline-block;margin-top:6px;font-family:Lalezar,cursive;font-size:17px;
+        padding:11px 20px;color:#0d2740;background:#ffd977;border-radius:999px;text-decoration:none}
+  footer{text-align:center;color:#6f96b4;font-size:12.5px;padding:10px 16px 30px;line-height:1.9}
+</style>
+</head>
+<body>
+<header>
+  <h1>أنهي صوت مصري؟</h1>
+  <p class="tag">نفس الجملة بأربع أصوات. اسمعيهم وقوليلي رقم أنهي واحد مصري فعلًا — وأنا أسجّل بيه الـ٤٢ سطر بتوع أسئلة الدراسات.</p>
+</header>
+<main>
+  <p class="txt">نبدأ بالدول والمساحة. الوطن العربي فيه كام دولة؟ اتنين وعشرين دولة. وأكبر دولة عربية في المساحة إيه؟ الجزائر. والجزء الأكبر من المساحة في أنهي جناح؟ في الجناح الإفريقي.</p>
+
+  <div class="card now">
+    <div class="top"><span class="letter">٠</span><h2>اللي موجود دلوقتي</h2></div>
+    <p class="how">ده الصوت اللي في الفيديو حاليًا — اللي قلتي إن لهجته مش ثابتة. حطيته عشان تقارني بيه.</p>
+    <audio controls preload="none" src="now.m4a"></audio>
+  </div>
+
+  <div class="card">
+    <div class="top"><span class="letter">١</span><h2>صوت حريمي · توجيه إنجليزي</h2></div>
+    <p class="how">نفس الصوت بس اداني له وصف بالإنجليزي: مصري قاهري، الجيم تتنطق G والقاف همزة، مش خليجي ولا شامي ولا فصحى.</p>
+    <audio controls preload="none" src="A.m4a"></audio>
+  </div>
+
+  <div class="card">
+    <div class="top"><span class="letter">٢</span><h2>صوت حريمي · توجيه بالمصري</h2></div>
+    <p class="how">نفس الصوت بس الوصف نفسه مكتوب بالمصري.</p>
+    <audio controls preload="none" src="B.m4a"></audio>
+  </div>
+
+  <div class="card">
+    <div class="top"><span class="letter">٣</span><h2>صوت رجّالي · توجيه بالمصري</h2></div>
+    <p class="how">صوت تاني، رجّالي، بنفس التوجيه المصري.</p>
+    <audio controls preload="none" src="C.m4a"></audio>
+  </div>
+
+  <div class="note">
+    <b>لو مفيش واحد فيهم مصري:</b> يبقى المشكلة مش في التوجيه — مكتبة الأصوات في Google AI Studio فيها ١١ لغة ومفيهاش عربي خالص، فالأصوات كلها متدربة على لغات تانية وبتنطق العربي بلكنة أجنبية.
+    <br><br>
+    وقتها قدامنا طريقين: <b>(أ)</b> خاصية «Voice Design» في نفس الموقع، وفيها بنوصف الصوت باللهجة اللي عايزينها — بس دي محتاجة تفعيل الدفع على الحساب، ومش هعملها من غير إذنك. <b>(ب)</b> نجرّب خدمة صوت تانية فيها مصري جاهز. قوليلي تحبي أنهي واحدة.
+  </div>
+
+  <a class="back" href="../">كل الدروس ←</a>
+</main>
+<footer>الصفحة دي مؤقتة للاختيار بس</footer>
+</body>
+</html>
